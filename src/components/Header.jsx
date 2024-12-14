@@ -1,3 +1,7 @@
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <div>
+      <h1>Etch-a-Sketch</h1>
+    </div>
+  );
 }

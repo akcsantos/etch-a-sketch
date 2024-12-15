@@ -1,7 +1,8 @@
 .mainContainer {
-  height: 700px;
-  width: 800px;
+  height: auto;
+  width: auto;
   border: 2px solid black;
+  display: grid;
 }
 
 .mouseOver {
@@ -11,7 +12,11 @@
 }
 
 .tiles {
-  height: 500px;
-  width: 300px;
-  border: 2px solid black;
+  width: 45rem;
+  height: 45rem;
+  display: grid;
+}
+
+.cell {
+  border: 1px solid gray;
 }
